@@ -38,5 +38,9 @@ alias ~='cd ~'                       #~:        Go home
 alias which='type -all'              #which:    Find executables
 alias path='echo -e ${PATH//:/\\n}'  #path:     Echo all executable paths
 
+alias emacs="/usr/local/Cellar/emacs/24.5/Emacs.app/Contents/MacOS/Emacs -nw"
+
 #Searching quickly
 alias qfind='find . -name '          #qfind:    Quickly search for file
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
